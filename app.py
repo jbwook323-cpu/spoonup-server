@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # 우리 서버 주소
-SERVER_URL = "http://127.0.0.1:8000"
+SERVER_URL = "https://spoonup-server.onrender.com"
 
 st.set_page_config(page_title="스푼업 기사님 앱", page_icon="🛵")
 

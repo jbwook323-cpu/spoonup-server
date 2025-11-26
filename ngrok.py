@@ -6,7 +6,7 @@ from pyngrok import ngrok
 ngrok.set_auth_token("35xWOiL4dgReSL2pjr3Ntzk6g7W_4cmca6ZrC6bo7wFefbLb7")
 
 # 1. 기사님 앱(8501번)을 인터넷에 공개!
-public_url = ngrok.connect(8501).public_url
+public_url = ngrok.connect(8502).public_url
 
 print("\n" + "=" * 50)
 print(f"🌍 스마트폰 접속 주소: {public_url}")
